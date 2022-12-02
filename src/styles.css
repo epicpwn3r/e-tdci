@@ -1,0 +1,106 @@
+body{
+  background-color: rgba(12, 21, 44, 0.8);
+  font-family: 'Fredoka One', cursive;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+
+header{
+  width: 100%;
+}
+
+.parallax {
+  /* The image used */
+  /* background-image: url("../img/background5.png"); */
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  line-height: 180px;
+  font-size: 50px;
+  /* font-family: 'Fredoka One', cursive; */
+  font-weight: bold;
+
+}
+.img1{
+  background-image: url("../img/background5.png");
+}
+.img2{
+  background-image: url("../img/background4.png");
+
+}
+.img3{
+  background-image: url("../img/background3.png");
+
+}
+.img4{
+  background-image: url("../img/background2.png");
+
+}
+.img5{
+  background-image: url("../img/background1.png");
+
+}
+
+/*
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+} */
+nav{
+  display: flex;
+  justify-content: flex-end;
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  background-color: rgba(12, 21, 44, 0.5);
+
+}
+.navLink{
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding:3px 10px;
+  margin: 0 10px;
+
+}
+.navLink:hover{
+  color:white;
+  /* font-weight:300; */
+  -webkit-text-stroke: 0.5px rgba(12, 21, 44, 1);
+  box-shadow: 0px 0px 20px rgba(12, 21, 44, 0.8) inset;
+
+}
+.sectionText{
+  width: 60%;
+  height: 100%;
+  padding: 30px 20%;
+  font-weight: 400;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 3em;
+}
+.sectionLongText{
+  width: 60%;
+  height: 100%;
+  padding: 30px 20%;
+  font-weight: 400;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  line-height: 2em;
+}
